@@ -35,21 +35,15 @@ figure img{
 	border: 2px solid #444;
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px){
+@media screen and (max-width: 992px){
 	figure{
 		width: 49%;
 	}
-	#gallery{
-		width: 80%;
-	}
 }
 
-@media screen and (min-width: 480px) and (max-width: 768px){
+@media screen and (max-width: 768px){
 	figure{
 		width: 100%;
-	}
-	#gallery{
-		width: 80%;
 	}
 }
 
@@ -57,9 +51,7 @@ figure img{
 	figure{
 		width: 100%;
 	}
-
 	#gallery{
 		width: 100%;
-		margin: 0px;
 	}
 }
